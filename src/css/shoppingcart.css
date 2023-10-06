@@ -1,0 +1,39 @@
+main{
+    background: var(--light-gray);
+}
+section{
+    padding-left: 188px;
+    padding-right: 188px;
+}
+main{
+    margin-top: 24px;
+}
+h1{
+    padding-top: 64px;
+    padding-bottom: 48px;
+}
+.product img{
+    width: 109px;
+    height: 134px;
+}
+.shoppingcart-button{
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 1rem;
+}
+@media (max-width: 767px){
+    section{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    h1{
+        padding-top: 36px;
+        padding-bottom: 40px;
+    }
+}
+@media (max-width: 1023px){
+    section{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}

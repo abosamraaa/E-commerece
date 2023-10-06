@@ -1,0 +1,42 @@
+.nav-links{
+    background: var(--light-gray);
+    padding: 0.5rem;
+}
+.brand-box{
+    padding: 88px 128px 89px 128px;
+    width: 100%;
+}
+.brand-text{
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 50.4px */
+}
+.boxx{
+    padding: 72px 100px 196px 84px;
+    display: flex;
+    flex-direction: column;
+}
+.paragraph{
+    color: #2A254B;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 33.6px */
+}
+@media (max-width:787px){
+    .brand-box{
+        padding: 32px 24px 32px 24px;
+    }
+    .nav-icons{
+        display: none;
+    }
+    .boxx{
+        padding: 20px;
+    }
+}
+@media (max-width:1023px){
+    .img-box{
+        width: 100%;
+    }
+}

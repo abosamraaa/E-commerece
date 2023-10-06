@@ -1,0 +1,10 @@
+.header-image img{
+    /* background: url(/src/images/Frame\ 143.png); */
+    width: 100vw;
+    height: 30vh;
+    /* background-size: cover; */
+    margin-top: 1rem;
+}
+/* .viewProducts-box{
+    padding: 5rem;
+} */

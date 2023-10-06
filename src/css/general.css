@@ -1,0 +1,251 @@
+:root{
+    --dark-primary:#2A254B;
+    --primary:#4E4D93;
+    --light-gray:#f9f9f9;
+    --border-gray:#EBE8F4;
+    --white:#ffffff;
+    --border-dark:#CAC6DA;
+}
+body{
+    font-family: Clash Display;
+    text-transform: capitalize;
+    width: 100%;
+    font-family:'Open Sans', sans-serif;
+}
+body a{
+    text-decoration: none;
+    color: black;
+}
+
+header nav{
+    height: 8.25rem;
+    background-color: var(--white);
+}
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    padding-bottom: 0;
+}
+.nav-icons{
+    display: flex;
+    gap: 1rem;
+}
+.nav-links{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    opacity: 0.35;
+}
+.menu-bar{
+    visibility: hidden;
+}
+.alert-color{
+    background-color: var(--dark-primary);
+    border: var(--dark-primary);
+    border-radius: 0;
+    color: var(--white);
+}
+.products-cards{
+    margin: 1.75rem 5rem 2.5rem 5rem;
+}
+/* .products-cards div{
+    padding: 10px;
+} */
+.info-sec{
+    margin: 3.75rem 5rem;
+}
+.products-cards img{
+    width: 100%;
+}
+.brand-cards{
+    margin: 2.25rem 5rem  5.125rem 5rem;
+    gap:0.625rem;
+}
+.brand-cards div{
+    background: var(--light-gray);
+    color: var(--dark-primary);
+    font-family: Clash Display;
+    font-size: 20px;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+}
+.brand-cards img{
+    color: var(--white);
+}
+.email-signup{
+    background: var(--border-gray);
+    padding: 3.25rem 4.625rem 4.0625rem 5.8125rem;
+}
+.signup-box{
+    background: var(--white);
+}
+.signup-container{
+    /* padding: 4.25rem 21.9375rem 21.9375rem 3.375rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.signup-button{
+    background-color: var(--dark-primary);
+    border: var(--dark-primary);
+    color: var(--white);
+}
+.addtocart-button{
+    background-color: var(--dark-primary);
+    color: var(--white);
+    padding: 16px 32px;
+}
+.viewCollection button{
+    width: 10rem;
+    height: 3rem;
+    background: rgba(159, 139, 139, 0.459);
+    border: rgba(160, 154, 154, 0.521);
+    color: var(--white);
+}
+.text-sec{
+    padding: 3.75rem 5rem;
+    background: var(--dark-primary);
+    color: var(--white);
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 41px;
+}
+.text-sec button{
+    width: 10rem;
+    height: 3rem;
+    background: rgba(249, 249, 249, 0.15);
+    border: rgba(249, 249, 249, 0.15);
+    color: var(--white);
+}
+.text-sec p{
+    color: var(--White);
+    font-family: Clash Display;
+    /* font-size: 32px; */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 44.8px */
+    /* padding-top: 21.0625rem; */
+}
+.img-sec img{
+    display: block;
+    height: 27.5rem;
+}
+.info-sec img{
+    width: 100%;
+}
+footer{
+    background: var(--dark-primary);
+    color: var(--white);
+}
+@media (max-width: 1023px){
+    .brand-cards{
+        margin: 36px 24px 24px 45px;
+        text-align: center;
+    }
+    .products-cards{
+        margin: 24px;
+    }
+    .our-brand-diiferent .brand-cards .recycled-card{
+        padding: 2.25rem;
+    }
+    .main-div .img-sec{
+        height: 600px;
+    }
+    .info-sec img{
+        width: 300px;
+        height: 68vh;
+    }
+    .signup-component{
+        margin-bottom: 2rem;
+    }
+    .signup-box{
+        width: 70%;
+    }
+    .email-signup{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width: 767px) {
+    .nav-links{
+        display: none;
+    }
+    .our-brand-diiferent h3{
+        padding: 36px 24px 24px 45px;
+    }
+    .brand-cards{
+        margin: 36px 24px 24px 45px;
+    }
+    .products-cards{
+        margin: 24px;
+    }
+    .info-sec{
+        margin: 32px 24px 24px 24px;
+    }
+    .text-sec {
+        padding: 40px 24px 24px 24px;
+        text-align: center;
+}
+    .button-text{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .main-div .button-text button{
+        width: 100%;
+    }
+    header nav{
+        height: 10vh;
+    }
+    .info-sec img{
+        width: 100%;
+        margin-top:2rem ;
+    }
+    .info-sec .text-sec a{
+        width: 100%;
+    }
+    .email-signup{
+        padding: 0;
+        text-align: center;
+        background-color: var(--white);
+    }
+    .signup-component{
+        padding-top: 64px;
+    }
+    .signup-input{
+        padding: 13px;
+    }
+    div .scale{
+        width: 100%;
+    } 
+    div .addtocart-button{
+        width: 100%;
+    }
+    .viewCollection{
+        padding: 1rem;
+    }
+    /* main section div .viewCollection a{
+        width: 100%;
+    } */
+    .menu-bar{
+        visibility: visible;
+    }
+}
+@media (max-width:1439px){
+    .img-box img{
+        width: 100%;
+    }
+    .info-sec img{
+        height: 70vh;
+    }
+}
