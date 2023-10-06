@@ -1,14 +1,17 @@
-function increaseValue() {
-    var value = parseInt(document.getElementById('number').value, 10);
-    value = isNaN(value) ? 0 : value;
-    value++;
-    document.getElementById('number').value = value;
+const decreaseButton = document.getElementById('decreaseButton');
+const increaseButton = document.getElementById('increaseButton');
+const countElement = document.getElementById('count');
+
+let count = 0;
+
+decreaseButton.addEventListener('click', () => {
+  if (count > 0) {
+    count--;
+    countElement.textContent = count;
   }
-  
-  function decreaseValue() {
-    var value = parseInt(document.getElementById('number').value, 10);
-    value = isNaN(value) ? 0 : value;
-    value < 1 ? value = 1 : '';
-    value--;
-    document.getElementById('number').value = value;
-  }
+});
+
+increaseButton.addEventListener('click', () => {
+  count++;
+  countElement.textContent = count;
+});
