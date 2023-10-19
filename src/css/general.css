@@ -144,6 +144,11 @@ header nav{
 .info-sec img{
     width: 100%;
 }
+.scroll{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1.5rem;
+}
 footer{
     background: var(--dark-primary);
     color: var(--white);
