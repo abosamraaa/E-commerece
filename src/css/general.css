@@ -256,6 +256,9 @@ footer{
         display: flex;
         flex-direction: column;
     }
+        .open a{
+        padding: 0.5rem;
+    }
 }
 @media (max-width:1439px){
     .img-box img{
