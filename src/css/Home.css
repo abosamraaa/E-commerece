@@ -49,5 +49,11 @@
 .signup-component{
     margin-top: 0;
 }
+    .nav-icons{
+    display: none;
+}
+.menu{
+    display: block;
+}
 }
 
