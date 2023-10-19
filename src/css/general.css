@@ -245,6 +245,17 @@ footer{
     .menu-bar{
         visibility: visible;
     }
+        .open{
+        display: block;
+        width: 50%;
+        padding: 1rem;
+        background: var(--white);
+        position: absolute;
+        top: 80px;
+        right: 2px;
+        display: flex;
+        flex-direction: column;
+    }
 }
 @media (max-width:1439px){
     .img-box img{
